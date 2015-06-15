@@ -2,7 +2,7 @@
     position: relative;
     top: 0px;
     left: 0px;
-    text-shadow: rgba(0, 0, 0, 0.4) 7px 7px 0px;
+    text-shadow: $color $size $size 0px;
     &#{&}-depressed {  // my-class.myclass-depressed
         top: 7px;
         left: 7px;
