@@ -1,0 +1,17 @@
+@import "../_q-shadow-button.scss";
+
+// make it pretty
+h1 {
+  letter-spacing: 0.1em;
+  font-family: 'Avenir Next', sans-serif;
+  font-weight: 900;
+  text-transform: uppercase;
+  font-size: 5em;
+  transition: all 0.12s ease;
+  cursor: pointer;
+}
+
+// use this component
+.my-button {
+  @include q-shadow-button;
+}

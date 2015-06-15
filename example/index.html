@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1 class="my-button">ham party</h1>
+  <script>
+    var elmt = document.querySelector('h1');
+    elmt.addEventListener('click', function(ev) {
+      ev.target.classList.toggle('my-button-depressed');
+    });
+  </script>
+</body>
+</html>

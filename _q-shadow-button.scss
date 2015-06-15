@@ -1,0 +1,11 @@
+@mixin q-shadow-button($size:7px, $color:rgba(0, 0, 0, 0.4)) {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    text-shadow: rgba(0, 0, 0, 0.4) 7px 7px 0px;
+    &#{&}-depressed {  // my-class.myclass-depressed
+        top: 7px;
+        left: 7px;
+        text-shadow: rgba(0, 0, 0, 0.4) 0px 0px 0px;
+    }
+}
