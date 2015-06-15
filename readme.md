@@ -1,14 +1,12 @@
 # quiet shadow button
 
-Sass mixin for button made with css `text-shadow`.
+Sass mixin for button made with css `text-shadow`. [Demo](https://34b5031f563032f046bb058392d8b33863f946d1.htmlb.in)
 
 ## install
 
     $ bower install q-shadow-button
 
 ## example
-
-[Demo](https://34b5031f563032f046bb058392d8b33863f946d1.htmlb.in)
 
 Markup:
 ```html

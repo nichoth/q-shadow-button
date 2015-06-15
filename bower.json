@@ -1,0 +1,24 @@
+{
+  "name": "q-shadow-button",
+  "version": "0.0.0",
+  "homepage": "https://github.com/nichoth/q-shadow-button",
+  "authors": [
+    "nichoth <nichoth@gmail.com>"
+  ],
+  "description": "Sass mixin for button made with css `text-shadow`.",
+  "main": "_q-shadow-button.scss",
+  "keywords": [
+    "sass",
+    "quiet-library",
+    "mixin",
+    "button"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
