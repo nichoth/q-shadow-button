@@ -8,6 +8,7 @@
   "description": "Sass mixin for button made with css `text-shadow`.",
   "main": "_q-shadow-button.scss",
   "keywords": [
+    "text-shadow",
     "sass",
     "quiet-library",
     "mixin",
