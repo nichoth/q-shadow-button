@@ -14,7 +14,7 @@ Markup:
   <h1 class="my-button">ham party</h1>
 
   <script>
-    var elmt = document.querySelector('h1');
+    var elmt = document.querySelector('.my-button');
     elmt.addEventListener('click', function(ev) {
       ev.target.classList.toggle('my-button-depressed');
     });
